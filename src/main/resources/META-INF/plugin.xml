@@ -1,0 +1,37 @@
+<idea-plugin>
+    <id>com.daugaard47.classytoggle</id>
+    <name>Classy Toggle</name>
+    <version>1.0</version>
+    <vendor email="daugaard47@gmail.com" url="daugaard47.com">Daugaard47</vendor>
+
+    <description><![CDATA[
+        A simple plugin to toggle CSS classes in common front-end files.
+    ]]></description>
+
+    <change-notes><![CDATA[
+        Initial release.
+    ]]></change-notes>
+
+    <!-- Define the required dependency on the IntelliJ Platform -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <lang.foldingBuilder language="HTML" implementationClass="com.daugaard47.classytoggle.CssClassFoldingBuilder"/>
+        <lang.foldingBuilder language="XML" implementationClass="com.daugaard47.classytoggle.CssClassFoldingBuilder"/>
+    </extensions>
+
+    <!-- Register the actions -->
+    <actions>
+        <group id="ClassToggleGroup" text="Classy Toggle" description="Classy Toggle actions" popup="true">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <action id="ToggleCssClassesAction" class="com.daugaard47.classytoggle.ToggleCssClassesAction" text="Toggle CSS Classes" description="Toggle CSS classes in your front-end files">
+                <keyboard-shortcut keymap="$default" first-keystroke="alt n"/>
+            </action>
+            <action id="ExpandAllClassesAction" class="com.daugaard47.classytoggle.ExpandAllClassesAction" text="Expand All Classes" description="Expand all CSS classes in your front-end files"/>
+            <action id="CollapseAllClassesAction" class="com.daugaard47.classytoggle.CollapseAllClassesAction" text="Collapse All Classes" description="Collapse all CSS classes in your front-end files"/>
+            <action id="DeleteAllClassesAction" class="com.daugaard47.classytoggle.DeleteAllClassesAction" text="Delete All Classes" description="Delete all CSS classes in your front-end files"/>
+        </group>
+    </actions>
+
+
+</idea-plugin>
