@@ -9,7 +9,7 @@ ClassyToggle is a simple and intuitive IntelliJ plugin designed to help develope
 
 ## Installation
 
-1. Download the latest release of the ClassyToggle plugin [here](https://github.com/YourUsername/ClassyToggle/releases/latest).
+1. Download the latest release of the ClassyToggle plugin [here](https://github.com/daugaard47/ClassyToggle/releases/latest).
 2. Open your JetBrains IDE (e.g., PhpStorm, IntelliJ IDEA, or WebStorm).
 3. Go to `Settings` > `Plugins`.
 4. Click the gear icon and choose `Install Plugin from Disk`.
@@ -20,13 +20,13 @@ ClassyToggle is a simple and intuitive IntelliJ plugin designed to help develope
 
 ### Toggle CSS Classes
 
-1. Open an HTML or XML file in your JetBrains IDE.
-2. Press `Alt+N` or right-click and select "Class Toggle" > "Toggle CSS Classes" from the context menu.
+1. Open any common front-end file that uses the `class` attribute in your JetBrains IDE.
+2. Press `Alt+N` or right-click and select "Classy Toggle" > "Toggle CSS Classes" from the context menu.
 
 ### Expand, Collapse, and Delete All CSS Classes
 
-1. Open an HTML or XML file in your JetBrains IDE.
-2. Right-click and select "Class Toggle" from the context menu.
+1. Open any common front-end file that uses the `class` attribute in your JetBrains IDE.
+2. Right-click and select "Classy Toggle" from the context menu.
 3. Choose one of the following options:
     - "Expand All Classes"
     - "Collapse All Classes"
@@ -43,8 +43,8 @@ We welcome contributions from the community! If you would like to contribute to 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/YourUsername/ClassyToggle/blob/main/LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/daugaard47/ClassyToggle/blob/main/LICENSE) file for more information.
 
 ## Support
 
-If you encounter any issues or have questions about the ClassyToggle plugin, please create an issue in this repository or contact the maintainer at [youremail@example.com](mailto:youremail@example.com).
+If you encounter any issues or have questions about the ClassyToggle plugin, please create an issue in this repository.
