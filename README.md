@@ -43,7 +43,7 @@ We welcome contributions from the community! If you would like to contribute to 
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/daugaard47/ClassyToggle/blob/main/LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/daugaard47/ClassyToggle/blob/main/LICENSE.txt) file for more information.
 
 ## Support
 
