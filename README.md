@@ -7,6 +7,11 @@ ClassyToggle is a simple and intuitive IntelliJ plugin designed to help develope
 - Toggle CSS classes in common front-end files using the `Alt+N` shortcut or by right-clicking and selecting "Class Toggle" in the context menu
 - Expand, collapse, and delete all CSS classes using the context menu
 
+## Demo Video
+
+[![Classy Toggle Demo Video](https://raw.githubusercontent.com/daugaard47/ClassyToggle/main/design/classytoggle-video-card.png?token=GHSAT0AAAAAACBHXBG3SBBB5LKOLLLP2PPUZCIXQRA)](https://www.youtube-nocookie.com/embed/SxvMGnmOTsE "Classy Toggle Demo Video")
+[Direct link: https://www.youtube-nocookie.com/embed/SxvMGnmOTsE](https://www.youtube-nocookie.com/embed/SxvMGnmOTsE)
+
 ## Installation
 
 1. Download the latest release of the ClassyToggle plugin [here](https://github.com/daugaard47/ClassyToggle/releases/latest).
@@ -48,8 +53,3 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 ## Support
 
 If you encounter any issues or have questions about the ClassyToggle plugin, please create an issue in this repository.
-
-
-## Demo Video
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SxvMGnmOTsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
