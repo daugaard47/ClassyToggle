@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="classy-toggle:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/classy_toggle_jar</output-path>
+    <root id="archive" name="classy-toggle_jar.jar">
+      <element id="archive" name="classy-toggle.jar">
+        <element id="module-output" name="class-toggle.main" />
+      </element>
+      <element id="library" level="module" name="Gradle: com.jetbrains:ideaIC:2022.2.4" module-name="class-toggle.test" />
+      <element id="library" level="project" name="Gradle: org.jetbrains:annotations:24.0.0" />
+    </root>
+  </artifact>
+</component>

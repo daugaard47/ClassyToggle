@@ -4,8 +4,8 @@ plugins {
     id("org.jetbrains.intellij") version "1.13.3"
 }
 
-group = "com.example"
-version = "1.0-SNAPSHOT"
+group = "com.daugaard47"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -31,8 +31,10 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("222")
+        sinceBuild.set("222.0")
         untilBuild.set("232.*")
+        pluginId.set("com.daugaard47.classytoggle")
+        version.set("1.0.0")
     }
 
     signPlugin {
@@ -43,14 +45,5 @@ tasks {
 
     publishPlugin {
         token.set(System.getenv("PUBLISH_TOKEN"))
-    }
-    jar {
-        manifest {
-            attributes(
-                    "Plugin-Id" to "com.daugaard47.classytoggle",
-                    "Plugin-Version" to "1.0",
-                    "Plugin-Vendor" to "Chris Daugaard"
-            )
-        }
     }
 }
