@@ -48,3 +48,8 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 ## Support
 
 If you encounter any issues or have questions about the ClassyToggle plugin, please create an issue in this repository.
+
+
+## Demo Video
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SxvMGnmOTsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
