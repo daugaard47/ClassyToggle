@@ -34,7 +34,7 @@ tasks {
         sinceBuild.set("222.0")
         untilBuild.set("232.*")
         pluginId.set("com.daugaard47.classytoggle")
-        version.set("1.0.0")
+        version.set("1.0.1")
     }
 
     signPlugin {

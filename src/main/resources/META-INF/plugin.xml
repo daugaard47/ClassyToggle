@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.daugaard47.classytoggle</id>
     <name>Classy Toggle</name>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <vendor email="daugaard47@gmail.com" url="daugaard47.com">Daugaard47</vendor>
 
     <description><![CDATA[
