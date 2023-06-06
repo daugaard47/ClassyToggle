@@ -27,9 +27,11 @@ class CssClassFoldingBuilder : CustomFoldingBuilder() {
                 val attribute = PsiTreeUtil.getParentOfType(attributeValue, XmlAttribute::class.java)
                 if (attribute?.name == "class") {
                     val valueRange = attributeValue.textRange
-                    val range = TextRange(valueRange.startOffset + 1, valueRange.endOffset - 1)
-                    val descriptor = FoldingDescriptor(attributeValue.node, range)
-                    descriptors.add(descriptor)
+                    if (valueRange.startOffset != valueRange.endOffset - 2) {
+                        val range = TextRange(valueRange.startOffset + 1, valueRange.endOffset - 1)
+                        val descriptor = FoldingDescriptor(attributeValue.node, range)
+                        descriptors.add(descriptor)
+                    }
                 }
             }
         }
