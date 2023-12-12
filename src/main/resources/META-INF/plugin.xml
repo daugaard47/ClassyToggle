@@ -1,8 +1,10 @@
 <idea-plugin>
     <id>com.daugaard47.classytoggle</id>
     <name>Classy Toggle</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <vendor email="daugaard47@gmail.com" url="daugaard47.com">Daugaard47</vendor>
+
+    <idea-version since-build="232.*" until-build="233.*"/>
 
     <description><![CDATA[
         A simple plugin to toggle CSS classes in common front-end files.
