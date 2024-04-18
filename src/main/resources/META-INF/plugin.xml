@@ -1,17 +1,17 @@
 <idea-plugin>
     <id>com.daugaard47.classytoggle</id>
     <name>Classy Toggle</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <vendor email="daugaard47@gmail.com" url="daugaard47.com">Daugaard47</vendor>
 
-    <idea-version since-build="232.*" until-build="233.*"/>
+    <idea-version since-build="241.0" until-build="244.*"/>
 
     <description><![CDATA[
         A simple plugin to toggle CSS classes in common front-end files.
     ]]></description>
 
     <change-notes><![CDATA[
-        Initial release.
+        Updated compatibility to support PhpStorm versions from build 241 to 244.
     ]]></change-notes>
 
     <!-- Define the required dependency on the IntelliJ Platform -->
