@@ -1,20 +1,19 @@
 <idea-plugin>
     <id>com.daugaard47.classytoggle</id>
     <name>Classy Toggle</name>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <vendor email="daugaard47@gmail.com" url="daugaard47.com">Daugaard47</vendor>
 
-    <idea-version since-build="241.0" until-build="244.*"/>
+    <idea-version since-build="241.0"/>
 
     <description><![CDATA[
         A simple plugin to toggle CSS classes in common front-end files.
     ]]></description>
 
     <change-notes><![CDATA[
-        Updated compatibility to support PhpStorm versions from build 241 to 244.
+        Updated compatibility to support all future IDE versions.
     ]]></change-notes>
 
-    <!-- Define the required dependency on the IntelliJ Platform -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
@@ -22,7 +21,6 @@
         <lang.foldingBuilder language="XML" implementationClass="com.daugaard47.classytoggle.CssClassFoldingBuilder"/>
     </extensions>
 
-    <!-- Register the actions -->
     <actions>
         <group id="ClassToggleGroup" text="Classy Toggle" description="Classy Toggle actions" popup="true">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
@@ -34,6 +32,4 @@
             <action id="DeleteAllClassesAction" class="com.daugaard47.classytoggle.DeleteAllClassesAction" text="Delete All Classes" description="Delete all CSS classes in your front-end files"/>
         </group>
     </actions>
-
-
 </idea-plugin>

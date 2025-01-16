@@ -5,23 +5,20 @@ plugins {
 }
 
 group = "com.daugaard47"
-version = "1.0.3"
+version = "1.0.4"
 
 repositories {
     mavenCentral()
 }
 
-// Configure Gradle IntelliJ Plugin
-// Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
     version.set("2024.1")
-    type.set("IC") // Target IDE Platform
+    type.set("IC")
 
     plugins.set(listOf(/* Plugin Dependencies */))
 }
 
 tasks {
-    // Set the JVM compatibility versions
     withType<JavaCompile> {
         sourceCompatibility = "17"
         targetCompatibility = "17"
@@ -32,9 +29,9 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("241.0")
-        untilBuild.set("244.*")
+        // Do not set untilBuild to allow compatibility with future versions
         pluginId.set("com.daugaard47.classytoggle")
-        version.set("1.0.3")
+        version.set("1.0.4")
     }
 
     signPlugin {
