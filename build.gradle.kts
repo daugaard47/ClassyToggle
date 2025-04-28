@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.daugaard47"
-version = "1.0.4"
+version = "1.0.5"
 
 repositories {
     mavenCentral()
@@ -14,7 +14,7 @@ repositories {
 intellij {
     version.set("2024.1")
     type.set("IC")
-
+    updateSinceUntilBuild.set(false) // Add this line
     plugins.set(listOf(/* Plugin Dependencies */))
 }
 
@@ -28,10 +28,10 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("241.0")
-        // Do not set untilBuild to allow compatibility with future versions
+        sinceBuild.set("223.0") // Lower this to a much earlier version
+        // Remove untilBuild completely
         pluginId.set("com.daugaard47.classytoggle")
-        version.set("1.0.4")
+        version.set("1.0.5")
     }
 
     signPlugin {
